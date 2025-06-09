@@ -1,0 +1,84 @@
+body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #fc9e52;
+      color: #63361c;
+      text-align: center;
+    }
+    header {
+      padding: 2rem;
+      background-color: orangered;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #f58220;
+    }
+    img{
+        border-radius: 15px 50px;
+        max-height: 150px;
+    }
+    .motto{
+        font-size: small;
+        color: #b1abab;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ffa500;
+    }
+    header img.logo {
+      width: 100px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    section {
+      padding: 3rem 1rem;
+      border-bottom: 1px solid #333;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #ff7f00;
+    }
+    .team-grid, .king-queen-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      color: #f58220;
+    }
+    .card {
+      background-color: #794400;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 165, 0, 0.2);
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    .coming-soon {
+      font-size: 1.2rem;
+      font-style: italic;
+      margin-top: 2rem;
+      color: #ff7b00;
+    }
+    a{
+        text-decoration: none;
+        color: #fc9e52;
+    }
+    a:hover{
+        color: #1af01a;
+    }
+    footer {
+      padding: 2rem;
+      background-color: #111;
+      font-size: 0.9rem;
+      color: #777;
+    }
